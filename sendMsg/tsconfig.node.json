@@ -6,7 +6,15 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*":["src/*"], 
+    },    
+
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts","src/**/*.ts","src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"] 
+ 
 }

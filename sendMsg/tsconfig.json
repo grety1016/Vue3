@@ -8,14 +8,15 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@/*":["src/*"],      
-    },
-    "noEmit": true,
+  // "compilerOptions": {
+  //   // "baseUrl": "./",
+  //   // "paths": {
+  //   //   "@/*":["src/*"],      
+  //   // },
+  //   "allowImportingTsExtensions": true,
+  //   "noEmit": true,
 
-  },
-  "include": ["src/**/*.ts","src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  // },
+  // "include": ["src/**/*.ts","src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 
 }
