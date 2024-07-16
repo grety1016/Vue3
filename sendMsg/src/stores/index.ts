@@ -1,11 +1,13 @@
 import {createPinia,defineStore} from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
+import { ref } from 'vue';
 
 export const pinia = createPinia()
 .use(piniaPluginPersistedstate);
 
 
 export const useIndexStore = defineStore('index',()=>{
+    const count = ref<number>(0);
 
 },{
     persist:{
