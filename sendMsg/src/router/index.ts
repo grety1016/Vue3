@@ -9,8 +9,6 @@ const routes =[
         name: "Home",
         component: Home, 
     }
-
-
 ];
 
 export const router = createRouter({
